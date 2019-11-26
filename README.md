@@ -1,36 +1,10 @@
 # zip-viewer
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+Simple zip viewer in clojure. You can browse directory hierarchy and view
+information about files
 
 ## Usage
 
-FIXME: explanation
+Keys: hjklq
 
-    $ java -jar zip-viewer-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+$ java -jar zip-viewer-0.1.0-standalone.jar [args]
