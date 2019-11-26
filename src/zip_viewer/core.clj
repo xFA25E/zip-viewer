@@ -60,4 +60,6 @@
                       (if (zero? (count (get-map-keys zip-map new-path)))
                         (recur zip-map path saved-positions)
                         (recur zip-map new-path (conj saved-positions 0))))
-            \q      (screen/stop main-screen)))))))
+            \q      (screen/stop main-screen)
+
+            (recur zip-map path saved-positions)))))))
